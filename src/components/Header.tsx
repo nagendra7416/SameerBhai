@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
+import logo from '../sameer.jpg';
 
 const Header = () => {
   return (
@@ -38,7 +39,7 @@ const Header = () => {
           <div className="w-64 h-64 md:w-96 md:h-96 relative">
             <div className="w-full h-full rounded-full overflow-hidden border-4 border-white/20">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80" 
+                src={logo} 
                 alt="Abdul Sameer"
                 className="w-full h-full object-cover"
               />

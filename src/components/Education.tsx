@@ -17,7 +17,7 @@ const Education = () => {
             </div>
             <p className="text-gray-600 mb-4">2017 – 2021</p>
             <p className="text-gray-700">
-              Major: Electrical, Electronics & Communications Engineering
+              Major: Electronics & Communications Engineering
             </p>
           </div>
 
